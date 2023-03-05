@@ -33,11 +33,11 @@ export default function Navbar() {
             {userDetails ? (
                 <div>
                     <div
-                        className="flex justify-between md:justify-around py-4 w-full top-0 left-0 right-0 z-10 px-8 md:px-3">
+                        className="bg-primary flex justify-between md:justify-around py-4 w-full top-0 left-0 right-0 z-10 px-8 md:px-3">
 
                         <div className="flex items-center cursor-pointer">
-                            <h3 className="text-4xl font-medium text-white">
-                                Healthynest
+                            <h3 className="text-4xl w-72 font-medium text-white">
+                                StudyNexus
                             </h3>
                         </div>
 
@@ -48,16 +48,20 @@ export default function Navbar() {
                                 <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Home</span>
                             </Link>
 
-                            <Link to="/calorie">
-                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Calorie Calculator</span>
+                            <Link to="/posting">
+                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Post Questions</span>
                             </Link>
 
-                            <Link to="/chatroom">
-                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Chatroom</span>
+                            <Link to="/group">
+                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Group</span>
                             </Link>
 
-                            <Link to="/exercise">
-                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Exercise</span>
+                            <Link to="/shop">
+                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Shop</span>
+                            </Link>
+
+                            <Link to="/profile">
+                                <span className="inline-flex w-auto px-3 py-2 rounded hover:bg-tertiary cursor-pointer text-white">Profile</span>
                             </Link>
                         </div>
 
