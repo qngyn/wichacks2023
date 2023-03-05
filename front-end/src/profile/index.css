@@ -1,0 +1,37 @@
+.wd-gray {
+    color: #e8eceb;
+}
+
+.wd-orange {
+    color: #e09e50;
+}
+
+.wd-green {
+    color: #8cbdb9;
+}
+
+.wd-blue {
+    color: #2d3e4e;
+}
+
+.wd-bg-gray {
+    background-color: #e8eceb;
+}
+
+.wd-bg-orange {
+    background-color: #e09e50;
+}
+
+.wd-bg-green {
+    background-color: #8cbdb9;
+}
+
+.wd-bg-blue {
+    background-color: #2d3e4e;
+}
+
+.pos-relative-nudge-up-right {
+    position: relative;
+    bottom: 80px;
+    /* left: 20px;*/
+}
